@@ -1,0 +1,9 @@
+num = input()
+
+for i in range(int(num)):
+    num2 = int(input())
+    if num2 % 2 == 0:
+        print(int((num2/2)-1))
+    else:
+        print(int((num2/2)))
+ 
